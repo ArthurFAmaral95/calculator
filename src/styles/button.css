@@ -1,0 +1,44 @@
+.calculator-button {
+  color: black;
+  border: 0.1rem solid black;
+  height: 6.5rem;
+  width: 8rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.calculator-button:hover {
+  border: 0.1rem solid white;
+}
+
+.calculator-button.clear {
+  background-color: red;
+}
+
+.calculator-button.equal {
+  background-color: rgb(1, 1, 192);
+}
+
+.calculator-button.number,
+.calculator-button.decimal {
+  background-color: gray;
+}
+
+.calculator-button.operator {
+  background-color: lightgray;
+}
+
+.calculator-button#zero,
+.calculator-button.clear {
+  width: 16rem;
+}
+
+.calculator-button.equal {
+  height: 13rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=button.css.map */

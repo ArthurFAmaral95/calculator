@@ -1,0 +1,44 @@
+@use "variables";
+
+.calculator-button {
+  color: variables.$buttons-text-color;
+  border: variables.$buttons-border variables.$buttons-border-color;
+  height: 6.5rem;
+  width: 8rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.calculator-button:hover {
+  border: variables.$buttons-border variables.$buttons-border-hover-color;
+}
+
+.calculator-button.clear {
+  background-color: variables.$clear-button-bg-color;
+}
+
+.calculator-button.equal {
+  background-color: variables.$equal-button-bg-color;
+}
+
+.calculator-button.number,
+.calculator-button.decimal {
+  background-color: variables.$number-button-bg-color;
+}
+
+.calculator-button.operator {
+  background-color: variables.$operator-button-bg-color;
+}
+
+.calculator-button#zero,
+.calculator-button.clear {
+  width: 16rem;
+}
+
+.calculator-button.equal {
+  height: 13rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,9 @@
+@use "variables";
+
+#formula-display {
+  color: variables.$formula-text-color;
+  text-align: right;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  height: 2rem;
+}
